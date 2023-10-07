@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <h1>sunflower</h1>
+      <img src="FB_IMG_1696632205742.jpg" alt="">
+      <h1>sunflower</h1>
+
+    </div>
+  </div>
+
+
+</body>
+  <style>
+    body{
+      background:#000;
+    }
+    .wrapper{
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+    }
+    .container{
+      height:10em;
+      width:45em;
+      position:relative;
+    }
+    .container h1{
+      position:absolute;
+      width:25em;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      animation:spin 8s infinite liner;
+      @keyframes spin{
+        100%{
+          transform:translate(-50%,-50%);
+          rotate(360deg);
+      }
+    }
+  </style>
+</html>
+    
